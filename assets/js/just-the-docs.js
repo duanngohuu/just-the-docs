@@ -380,6 +380,9 @@ function searchLoaded(index, docs) {
   });
 
   jtd.addEvent(searchInput, 'keyup', function(e){
+    // handle event here
+    NHDeComunicationSearch(e);
+
     switch (e.keyCode) {
       case 27: // When esc key is pressed, hide the results and clear the field
         searchInput.value = '';
