@@ -120,4 +120,3 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
-remote_theme: pmarsceill/just-the-docs
