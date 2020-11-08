@@ -82,7 +82,7 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 #footer_content: "Copyright &copy; 2017-2020 <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">Patrick Marsceill.</a>"
-footer_content: "Copyright &copy; 2020 <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">Patrick Marsceill.</a>"
+footer_content: "Copyright &copy; 2020.</a>"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
