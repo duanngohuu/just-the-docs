@@ -18,7 +18,7 @@ const ref = firebase.database().ref('docs-count-visited');
 async function getDevice() {
     try {
         const response = await fetch('http://ipinfo.io', {
-            mode: 'cors', // no-cors, *cors, same-origin
+            mode: 'no-cors', // no-cors, *cors, same-origin
             cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
             headers: {
                 'Accept': 'application/json',
