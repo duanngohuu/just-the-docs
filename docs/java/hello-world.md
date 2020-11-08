@@ -20,7 +20,3 @@ To make it as easy as possible to write documentation in plain Markdown, most UI
 ```
 
 {: .fs-6 .fw-300 }
-
-
-<!-- <div id="container" style="height: 500px; border:1px solid grey"></div> -->
-<!-- <div id="playground" style="height: 500px; border:1px solid grey"></div> -->

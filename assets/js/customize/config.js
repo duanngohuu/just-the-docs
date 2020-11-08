@@ -43,5 +43,5 @@ ref.once('value', async function(snapshot) {
 
     ls.push({...device, time: JSON.stringify(new Date()) });
 
-    ref.set({ domain: ls });
+    // ref.set({ domain: ls });
 });

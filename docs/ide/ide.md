@@ -2,10 +2,11 @@
 layout: default
 title: IDE
 has_children: true
-permalink: /docs/ide
+permalink: /docs/ide-runtime
 ---
 
-# Angular
+# Visual studio code
 
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
+<div id="containerddd" style="height: 500px; border:1px solid grey"></div>
+
 {: .fs-6 .fw-300 }
