@@ -30,14 +30,13 @@ function generateVscode() {
         }
     });
 
-    // https://microsoft.github.io/monaco-editor/api/modules/monaco.editor.html
-    window.vsEditorControl = window.vsEditorControl || {};
-    require(["./vs/editor/editor.main"], function() {
+    function initVscode() {
+        document.getElementById('containerddd').innerHTML = '';
         window.vsEditorControl = monaco.editor.create(document.getElementById('containerddd'), {
             value: [
                 `console.log('Hello các vị thần, test phát đi ạ hihi ^^');`
             ].join('\n'),
-            language: 'javascript',
+            language: document.getElementById('jslang').value,
             theme: 'vs-dark',
             wordWrap: 'on',
             automaticLayout: true,
@@ -48,10 +47,15 @@ function generateVscode() {
                 vertical: 'auto'
             }
         });
-    });
+    }
+
+    // https://microsoft.github.io/monaco-editor/api/modules/monaco.editor.html
+    window.vsEditorControl = window.vsEditorControl || {};
+    require(["./vs/editor/editor.main"], initVscode);
 
     const logger = document.getElementById('runresult');
 
+    document.getElementById('jslang').addEventListener('change', initVscode);
     document.getElementById('clickMe').addEventListener('click', doRun);
     document.getElementById('clickConsole').addEventListener('click', function(e) {
         if (logger.style.display === 'none') {
