@@ -75,5 +75,5 @@ The theme is available as open source under the terms of the [MIT License](http:
 =>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 DuanNH
 develop:
-bundle exec jekyll serve --incremental
-bundle exec jekyll clean
+
+bundle exec jekyll clean && bundle exec jekyll serve --incremental

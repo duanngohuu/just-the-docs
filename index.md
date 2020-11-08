@@ -6,10 +6,10 @@ description: "Welcome"
 permalink: /
 ---
 
-# Hello i'm DuanNH ^^,
+# Hello i'm DuanNH,
 
-# Welcome to this Docs experience, this is application save the my experience about my work progress :D.
+# Welcome to this Docs, this is application save the my experience about my work progress :D.
 
-# Thanks because visiting  here ^^.
+# Thanks for visiting here ^^.
 
 ### Reading Happy !!!

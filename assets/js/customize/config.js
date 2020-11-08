@@ -15,10 +15,33 @@ firebase.analytics();
 
 const ref = firebase.database().ref('docs-count-visited');
 
-ref.once('value', function(snapshot) {
-    let total = parseInt((snapshot.val() ? snapshot.val().total : 0)) + 1;
+async function getDevice() {
+    try {
+        const response = await fetch('http://ipinfo.io', {
+            mode: 'cors', // no-cors, *cors, same-origin
+            cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+        });
 
-    ref.set({
-        total
-    });
+        const body = await response.json();
+
+        return body;
+    } catch (error) {
+        console.error(error);
+    }
+
+    return '127.0.0.1';
+}
+
+ref.once('value', async function(snapshot) {
+    const device = await getDevice();
+    const ls = snapshot.val() ? snapshot.val().domain : [];
+
+    ls.push({...device, time: JSON.stringify(new Date()) });
+
+    ref.set({ domain: ls });
 });

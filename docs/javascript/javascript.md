@@ -18,10 +18,8 @@ JavaScript là một ngôn ngữ lập trình hoặc ngôn ngữ kịch bản ch
 
 {: .fs-6 .fw-300 }
 
-# Why?
 
-JavaScript là một ngôn ngữ lập trình hoặc ngôn ngữ kịch bản cho phép triển khai những chức năng phức tạp trên trang web như hiển thị các cập nhật nội dung kịp thời, tương tác với bản đồ, hoạt cảnh 2D/3D vv... 
-{: .fs-6 .fw-300 }
+# Why?
 
 # How?
 

@@ -20,6 +20,7 @@
     "stylelint-check": "stylelint-config-prettier-check"
   },
   "dependencies": {
-    "bundle": "^2.1.0"
+    "bundle": "^2.1.0",
+    "monaco-editor": "^0.21.2"
   }
 }
