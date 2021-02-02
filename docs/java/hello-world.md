@@ -41,5 +41,6 @@ EEEE = day of the week (full)
 D = day of the Year
 
 ```
+-> https://docs.oracle.com/javase/6/docs/api/java/text/SimpleDateFormat.html
 
 {: .fs-6 .fw-300 }
