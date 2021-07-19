@@ -20,8 +20,11 @@ function getQuestion() {
     choiceResponse.style.display = "none";
     let q;
     do {
-        q = questions[questionIndex + 1];
-    } while (q.imgSrc == '');
+        q = questions[questionIndex];
+        if (!q.imgSrc) {
+            questionIndex++;
+        }
+    } while (!q.imgSrc);
 
     quizQuestion.innerHTML = "<p>Question " + (questionIndex + 1) + ": " + q.question + "</p>";
     // quizImg.innerHTML = "<img src=" + q.imgSrc + ">";
