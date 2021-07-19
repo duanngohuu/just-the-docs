@@ -20,7 +20,7 @@ function getQuestion() {
     choiceResponse.style.display = "none";
     let q;
     do {
-        q = questions[questionIndex];
+        q = questions[questionIndex + 1];
     } while (q.imgSrc == '');
 
     quizQuestion.innerHTML = "<p>Question " + (questionIndex + 1) + ": " + q.question + "</p>";
@@ -99,14 +99,14 @@ function beginQuiz() {
 function showScore() {
     quiz.style.display = "none";
     scoreBlock.style.display = "block";
-    scoreBlock.innerHTML = "<p> You scored " + score + " out of 10!</p>";
+    scoreBlock.innerHTML = "<p> You scored " + score + " out of " + questions.length + "!</p>";
 
-    if (score < 4) {
-        scoreMessage.innerHTML = "<p>Not so good! Time for some revision.</p>";
-    } else if (score < 8) {
-        scoreMessage.innerHTML = "<p>Pretty good! But still room for improvement.</p>"
+    if (score / questions.length < 40) {
+        scoreMessage.innerHTML = "<p>Not so good! like Zuan the :D</p>";
+    } else if (score / questions.length < 8) {
+        scoreMessage.innerHTML = "<p>Pretty good!</p>"
     } else {
-        scoreMessage.innerHTML = "<p>Great work! You really know your birds!</p>"
+        scoreMessage.innerHTML = "<p>Pro heo`</p>"
     }
     scoreMessage.style.display = "block";
     quizAgain.style.display = "block";
