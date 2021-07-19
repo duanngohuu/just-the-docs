@@ -7,6 +7,8 @@ permalink: /docs/toolkanji
 
 # Tool test kanji
 
+<link rel="stylesheet" href="{{ '/assets/css/kanjitool/style.css' | relative_url }}">
+
 <div class="container">
     <div id="start"><button class="start-btn" onClick="beginQuiz()">Begin the Quiz!</button>
         <!-- <p>Test your knowledge of New Zealand birds!<br> Do you know which is which?<br> Each picture of a bird will be accompanied by four options. <br> Click on one to select it as your answer.</p> -->
