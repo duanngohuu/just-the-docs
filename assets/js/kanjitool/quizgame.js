@@ -1,7 +1,3 @@
-if (window.location.href.indexOf("toolkanji") == -1) {
-    return;
-}
-
 //declare all variables
 var start = document.getElementById("start");
 var quiz = document.getElementById("quiz");
