@@ -98,9 +98,9 @@ function showScore() {
     scoreBlock.style.display = "block";
     scoreBlock.innerHTML = "<p> You scored " + score + " out of " + questions.length + "!</p>";
 
-    if (score / questions.length < 40) {
-        scoreMessage.innerHTML = "<p>Not so good! like Zuan the :D</p>";
-    } else if (score / questions.length < 8) {
+    if ((questions.length - score) * 100 < 40) {
+        scoreMessage.innerHTML = "<p>Not so good! like Zuan :D</p>";
+    } else if ((questions.length - score) * 100 < 8) {
         scoreMessage.innerHTML = "<p>Pretty good!</p>"
     } else {
         scoreMessage.innerHTML = "<p>Pro heo`</p>"
