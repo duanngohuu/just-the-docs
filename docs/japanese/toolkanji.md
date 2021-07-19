@@ -9,30 +9,29 @@ permalink: /docs/toolkanji
 
 <link rel="stylesheet" href="./../../css/style.css" type="text/css" />
 
-<h1>Kanji Quiz</h1>
-    <div class="container">
-        <div id="start"><button class="start-btn" onClick="beginQuiz()">Begin the Quiz!</button>
-            <!-- <p>Test your knowledge of New Zealand birds!<br> Do you know which is which?<br> Each picture of a bird will be accompanied by four options. <br> Click on one to select it as your answer.</p> -->
-            <p>Chaizo</p>
-        </div>
-        <div id="quiz" style="display: none">
-            <h2 id="quizQuestion"></h2>
-            <div class="img-div" id="quizImg"></div>
-            <div id="choices">
-                <button id="choiceA" class="onclickChoice"></button>
-                <button id="choiceB" class="onclickChoice"></button>
-                <button id="choiceC" class="onclickChoice"></button>
-                <button id="choiceD" class="onclickChoice"></button>
-            </div>
-            <div id="choiceResponse" style="display: none"></div>
-        </div>
-        <div id="scoreBlock" style="display: none"></div>
-        <div id="scoreMessage" style="display: none"></div>
-        <div><button id="quizAgain" class="quizRestart" style="display: none" onClick="restartQuiz()">Try Again!</button></div>
+<div class="container">
+    <div id="start"><button class="start-btn" onClick="beginQuiz()">Begin the Quiz!</button>
+        <!-- <p>Test your knowledge of New Zealand birds!<br> Do you know which is which?<br> Each picture of a bird will be accompanied by four options. <br> Click on one to select it as your answer.</p> -->
+        <p>Chaizo</p>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./../../js/db.js"></script>
-    <script type="text/javascript">
+    <div id="quiz" style="display: none">
+        <h2 id="quizQuestion"></h2>
+        <div class="img-div" id="quizImg"></div>
+        <div id="choices">
+            <button id="choiceA" class="onclickChoice"></button>
+            <button id="choiceB" class="onclickChoice"></button>
+            <button id="choiceC" class="onclickChoice"></button>
+            <button id="choiceD" class="onclickChoice"></button>
+        </div>
+        <div id="choiceResponse" style="display: none"></div>
+    </div>
+    <div id="scoreBlock" style="display: none"></div>
+    <div id="scoreMessage" style="display: none"></div>
+    <div><button id="quizAgain" class="quizRestart" style="display: none" onClick="restartQuiz()">Try Again!</button></div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./../../js/db.js"></script>
+<script type="text/javascript">
     //declare all variables
     var start = document.getElementById("start");
     var quiz = document.getElementById("quiz");
@@ -50,8 +49,6 @@ permalink: /docs/toolkanji
     var score = 0;
 
     var questionIndex = 0;
-
-    // getQuestion function
 
     function getQuestion() {
         choiceResponse.style.display = "none";
@@ -197,7 +194,6 @@ permalink: /docs/toolkanji
         score = 0;
         questionIndex = 0;
     }
-
-    </script>
+</script>
 
 {: .fs-6 .fw-300 }
