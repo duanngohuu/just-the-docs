@@ -1,3 +1,7 @@
+if (window.location.href.indexOf("toolkanji") == -1) {
+    return;
+}
+
 const questions = [{
         question: 'What mean?',
         imgSrc: '見る',

@@ -7,8 +7,6 @@ permalink: /docs/toolkanji
 
 # Tool test kanji
 
-<link rel="stylesheet" href="./../../css/style.css" type="text/css" />
-
 <div class="container">
     <div id="start"><button class="start-btn" onClick="beginQuiz()">Begin the Quiz!</button>
         <!-- <p>Test your knowledge of New Zealand birds!<br> Do you know which is which?<br> Each picture of a bird will be accompanied by four options. <br> Click on one to select it as your answer.</p> -->
@@ -30,6 +28,5 @@ permalink: /docs/toolkanji
     <div><button id="quizAgain" class="quizRestart" style="display: none" onClick="restartQuiz()">Try Again!</button></div>
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="./../../js/db.js"></script>
 
 {: .fs-6 .fw-300 }
