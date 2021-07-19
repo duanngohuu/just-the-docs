@@ -8,8 +8,8 @@ permalink: /
 
 # Hello i'm DuanNH,
 
-# Welcome to this Docs, this is application save the my experience about my work progress :D.
+# Welcome to this Docs ---- note the experiences about my work.
 
-# Thanks for visiting here ^^.
+# Thanks for visiting here.
 
-### Reading Happy !!!
+### Reading Happy
