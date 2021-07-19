@@ -117,7 +117,7 @@ const questions = [{
     },
     {
         question: 'What mean?',
-        imgSrc: '',
+        imgSrc: 'フリーマーケット',
         choiceA: 'よこ',
         choiceB: 'ぼんおどり',
         choiceC: 'なんでも',
@@ -135,7 +135,7 @@ const questions = [{
     },
     {
         question: 'What mean?',
-        imgSrc: '',
+        imgSrc: 'ボランティア',
         choiceA: 'みます',
         choiceB: 'うんどうかい',
         choiceC: 'あんな…',
@@ -153,7 +153,7 @@ const questions = [{
     },
     {
         question: 'What mean?',
-        imgSrc: '',
+        imgSrc: 'ごみ',
         choiceA: 'ずいぶん',
         choiceB: 'さがします',
         choiceC: 'かん',
@@ -198,7 +198,7 @@ const questions = [{
     },
     {
         question: 'What mean?',
-        imgSrc: '',
+        imgSrc: 'ずいぶん',
         choiceA: 'びん',
         choiceB: 'へいじつ',
         choiceC: 'こんな…',
@@ -216,7 +216,7 @@ const questions = [{
     },
     {
         question: 'What mean?',
-        imgSrc: '',
+        imgSrc: 'いつでも',
         choiceA: 'みます',
         choiceB: 'こんな…',
         choiceC: 'へいじつ',
@@ -225,7 +225,7 @@ const questions = [{
     },
     {
         question: 'What mean?',
-        imgSrc: '',
+        imgSrc: 'どこでも',
         choiceA: 'どこでも',
         choiceB: 'ガス',
         choiceC: 'ばしょ',
@@ -234,7 +234,7 @@ const questions = [{
     },
     {
         question: 'What mean?',
-        imgSrc: '',
+        imgSrc: 'だれでも',
         choiceA: 'さいふ',
         choiceB: 'みます',
         choiceC: 'びん',
@@ -243,7 +243,7 @@ const questions = [{
     },
     {
         question: 'What mean?',
-        imgSrc: '',
+        imgSrc: 'なんでも',
         choiceA: 'こっかいぎじどう',
         choiceB: 'やります',
         choiceC: 'べん　（ほうげん）',
@@ -252,7 +252,7 @@ const questions = [{
     },
     {
         question: 'What mean?',
-        imgSrc: '',
+        imgSrc: 'こんな…',
         choiceA: 'よこ',
         choiceB: 'かん',
         choiceC: 'うちゅう',
@@ -261,7 +261,7 @@ const questions = [{
     },
     {
         question: 'What mean?',
-        imgSrc: '',
+        imgSrc: 'そんな…',
         choiceA: 'ちがいます',
         choiceB: 'ガス',
         choiceC: 'ちがいます',
@@ -270,7 +270,7 @@ const questions = [{
     },
     {
         question: 'What mean?',
-        imgSrc: '',
+        imgSrc: 'あんな…',
         choiceA: 'どこでも',
         choiceB: 'へいじつ',
         choiceC: 'おくれます',
@@ -342,7 +342,7 @@ const questions = [{
     },
     {
         question: 'What mean?',
-        imgSrc: '',
+        imgSrc: 'ガス',
         choiceA: 'なんでも',
         choiceB: 'うちゅうせん',
         choiceC: 'さいふ',

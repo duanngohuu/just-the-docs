@@ -18,13 +18,7 @@ var questionIndex = 0;
 
 function getQuestion() {
     choiceResponse.style.display = "none";
-    let q;
-    do {
-        q = questions[questionIndex];
-        if (!q.imgSrc) {
-            questionIndex++;
-        }
-    } while (!q.imgSrc);
+    let q = questions[questionIndex];
 
     quizQuestion.innerHTML = "<p>Question " + (questionIndex + 1) + ": " + q.question + "</p>";
     // quizImg.innerHTML = "<img src=" + q.imgSrc + ">";
