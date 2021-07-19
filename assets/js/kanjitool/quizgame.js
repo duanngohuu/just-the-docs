@@ -98,13 +98,14 @@ function showScore() {
     scoreBlock.style.display = "block";
     scoreBlock.innerHTML = "<p> You scored " + score + " out of " + questions.length + "!</p>";
 
-    if ((questions.length - score) * 100 < 40) {
+    if (100 - ((questions.length - score) / questions.length) * 100 < 40) {
         scoreMessage.innerHTML = "<p>Not so good! like Zuan :D</p>";
-    } else if ((questions.length - score) * 100 < 8) {
+    } else if (100 - ((questions.length - score) / questions.length) * 100 < 80) {
         scoreMessage.innerHTML = "<p>Pretty good!</p>"
     } else {
         scoreMessage.innerHTML = "<p>Pro heo`</p>"
     }
+
     scoreMessage.style.display = "block";
     quizAgain.style.display = "block";
 }
