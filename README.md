@@ -73,7 +73,7 @@ The theme is available as open source under the terms of the [MIT License](http:
 
 
 =>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-DuanNH
+DuanNH・ズアン
 develop:
 
 bundle exec jekyll clean && bundle exec jekyll serve --incremental
