@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Regex
+title: Regex用語
 has_children: false
 permalink: /docs/regex
 ---

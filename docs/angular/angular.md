@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Angular
+title: Angularフレームワーク
 has_children: true
 permalink: /docs/angular
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Javascript
+title: Javascript言語
 nav_order: 2
 has_children: true
 permalink: /docs/javascript

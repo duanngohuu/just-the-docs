@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Promise Object
+title: Promise用語
 nav_order: 1
 has_children: false
 permalink: /docs/javascript/promise

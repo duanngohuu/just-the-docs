@@ -1,6 +1,6 @@
 ---
 layout: default
-title: React
+title: Reactライブラリ
 has_children: true
 permalink: /docs/reactjs
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tool test kanji
+title: 漢字をテスト
 has_children: true
 permalink: /docs/toolkanji
 ---

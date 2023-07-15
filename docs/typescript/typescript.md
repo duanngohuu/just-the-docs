@@ -1,6 +1,6 @@
 ---
 layout: default
-title: TypeScript
+title: Typescript言語
 nav_order: 3
 has_children: true
 permalink: /docs/typescript

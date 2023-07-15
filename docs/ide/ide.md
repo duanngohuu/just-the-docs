@@ -1,6 +1,6 @@
 ---
 layout: default
-title: IDE
+title: IDE・エディタ
 has_children: true
 permalink: /docs/ide-runtime
 ---

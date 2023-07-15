@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Excel
+title: Excel・エクスエル
 has_children: true
 permalink: /docs/excel
 ---

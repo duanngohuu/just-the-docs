@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fetch API
+title: Fetch API用語
 nav_order: 1
 has_children: false
 permalink: /docs/javascript/fetch
@@ -19,7 +19,7 @@ parent: Javascript
         .catch(console.error)
 ```
 
-Or
+又は
 
 ```javascript
     async function fetchData() {
