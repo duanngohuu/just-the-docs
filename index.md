@@ -6,10 +6,10 @@ description: "Welcome"
 permalink: /
 ---
 
-# Hello i'm DuanNH,
+# こんにちはズアンです。
 
-# Welcome to this Docs ---- note the experiences about my work.
+# 僕のブログへ預かってありがとうございます。とても嬉しいです。
 
-# Thanks for visiting here.
+# こちらでは仕事をしていたのを通じて僕の知識が保存されて、共有しているところです。
 
-### Reading Happy
+# 楽しんでしてください。
