@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Home
+title: ホームページ
 nav_order: 1
-description: "Welcome"
+description: "ホームページ"
 permalink: /
 ---
 

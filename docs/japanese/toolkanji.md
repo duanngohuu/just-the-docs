@@ -5,14 +5,14 @@ has_children: true
 permalink: /docs/toolkanji
 ---
 
-# Tool test kanji
+# 漢字をテスト
 
 <link rel="stylesheet" href="{{ '/assets/css/kanjitool/style.css' | relative_url }}">
 
 <div class="container">
     <div id="start"><button class="start-btn" onClick="beginQuiz()">Begin the Quiz!</button>
         <!-- <p>Test your knowledge of New Zealand birds!<br> Do you know which is which?<br> Each picture of a bird will be accompanied by four options. <br> Click on one to select it as your answer.</p> -->
-        <p>Chaizo</p>
+        <p>頑張って</p>
     </div>
     <div id="quiz" style="display: none">
         <h2 id="quizQuestion"></h2>
@@ -27,7 +27,7 @@ permalink: /docs/toolkanji
     </div>
     <div id="scoreBlock" style="display: none"></div>
     <div id="scoreMessage" style="display: none"></div>
-    <div><button id="quizAgain" class="quizRestart" style="display: none" onClick="restartQuiz()">Try Again!</button></div>
+    <div><button id="quizAgain" class="quizRestart" style="display: none" onClick="restartQuiz()">もう一度ね!</button></div>
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="{{ '/assets/js/kanjitool/db.js' | relative_url }}"></script>
