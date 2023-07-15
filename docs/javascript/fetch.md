@@ -9,7 +9,7 @@ parent: Javascript
 
 # [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch){:target="_blank"}
 
-Using
+使用
 
 ```javascript
     fetch('http://localhost:8080/authenticate', options*)
